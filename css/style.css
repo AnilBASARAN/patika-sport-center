@@ -489,11 +489,25 @@ label {
 
 .trainer-card:hover .trainer-layer {
   opacity: 1;
+  scale: 1.2;
 }
 
-.trainer-card:hover .line-3 {
-  opacity: 1;
+.trainer-card:hover .line-2 {
+  opacity: 0.8;
+  scale: 1.2;
 }
+
+.trainer-card:hover img {
+  
+  scale: 1.2;
+}
+
+.trainer-card:hover .trainer-flag {
+  opacity: 0.8;
+  scale: 1.2;
+}
+
+
 
 .trainer-layer h4 {
   color: #fefefe;
@@ -508,6 +522,8 @@ label {
   font-weight: bold;
   margin-top: 15px;
 }
+
+
 
 .bottom-trainer {
   background-color: #ffffff;
@@ -1067,6 +1083,17 @@ footer {
     flex-direction: column;
     gap: 40px;
   }
+  
+
+  .trainer-card img:hover{
+    scale: 1.5;
+    opacity: 0.3;
+    
+
+  }
+
+
+
   .purchase-container {
     flex-direction: column;
   }
